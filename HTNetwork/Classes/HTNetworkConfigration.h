@@ -20,6 +20,9 @@ NS_ASSUME_NONNULL_BEGIN
 // base request url, default is empty(@""). e.g: @"http://www.nihao520.com"
 @property (nonatomic, copy) NSString *baseUrl;
 
+// test server base url
+@property (nonatomic, copy) NSString *baseTestUrl;
+
 // http headers, default is nil. e.g: @{ @"version" : @"2.2.8" }
 @property (nonatomic, copy, nullable) NSDictionary *httpHeaders;
 
